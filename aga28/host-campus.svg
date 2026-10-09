@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Illustrated coastal maritime campus</title><desc id="desc">A refined editorial illustration of a modern marine education campus by the Atlantic, with a training vessel and rugged Newfoundland coastline.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8ed4f2"/><stop offset=".68" stop-color="#f3d8b0"/><stop offset="1" stop-color="#f9c98d"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#4b9dbb"/><stop offset="1" stop-color="#123d5a"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#c5f0f4"/><stop offset=".45" stop-color="#4d91a8"/><stop offset="1" stop-color="#173d58"/></linearGradient>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f2eee4"/><stop offset="1" stop-color="#b5c4c8"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#466e68"/><stop offset="1" stop-color="#1b4145"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#687b83"/><stop offset="1" stop-color="#263d4b"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="windows" width="58" height="62" patternUnits="userSpaceOnUse"><rect x="5" y="5" width="44" height="47" rx="2" fill="url(#glass)"/><path d="M27 5V52M5 28H49" stroke="#d8f4f2" stroke-opacity=".55" stroke-width="2"/></pattern>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<g fill="#fff" opacity=".52"><path d="M80 140q70-70 140-5 65-50 120 8 45 5 50 40H68q-5-25 12-43Z"/><path d="M1080 90q55-50 110-2 55-40 105 10 55-5 68 35h-300q-12-22 17-43Z"/></g>
+<circle cx="1290" cy="230" r="84" fill="#ffe8bd" opacity=".78"/>
+<path d="M0 450 90 390 160 405 270 320 360 358 450 286 520 330 620 275 735 350 850 280 955 340 1060 270 1170 345 1285 300 1400 350 1515 280 1600 330V610H0Z" fill="#597c77"/>
+<path d="M0 495 130 440 220 460 330 390 435 430 560 355 670 415 770 370 895 430 1010 355 1115 415 1220 380 1345 435 1455 370 1600 415V650H0Z" fill="url(#hill)"/>
+<path d="M0 565q180-55 330-10t315 0 300-8 310 3 345-15v255H0Z" fill="url(#sea)"/>
+<g opacity=".32" stroke="#c6e8e9" stroke-width="3" fill="none"><path d="M0 630q120-15 240 0t240 0 240 0 240 0 240 0 240 0 160 0"/><path d="M0 690q140-15 280 0t280 0 280 0 280 0 280 0 200 0"/><path d="M40 755q110-12 220 0t220 0 220 0 220 0 220 0 220 0 180 0"/></g>
+<path d="M0 800 1600 725V1000H0Z" fill="#1d3948" opacity=".5"/>
+<ellipse cx="760" cy="840" rx="620" ry="90" fill="#0b2637" opacity=".34" filter="url(#shadow)"/>
+<!-- campus building -->
+<path d="M90 620 720 475 1120 535 1120 780 90 865Z" fill="#0c263a" opacity=".45"/>
+<path d="M75 570 660 425 1090 490 1090 720 75 800Z" fill="url(#wall)" stroke="#d8e3e1" stroke-width="4"/>
+<path d="M75 570 660 425 660 665 75 800Z" fill="#c6d3d3"/>
+<path d="M660 425 1090 490 1090 720 660 665Z" fill="#e9e7dc"/>
+<path d="M110 590 625 464 625 637 110 755Z" fill="url(#windows)"/>
+<path d="M690 460 1050 515 1050 675 690 625Z" fill="url(#windows)"/>
+<path d="M60 560 660 408 1110 475 1090 500 660 440 82 590Z" fill="#f7f3e8"/>
+<path d="M660 408 1110 475 1090 500 660 440Z" fill="#d8e3e2"/>
+<path d="M82 800 1090 720 1090 758 82 842Z" fill="#758d96"/>
+<!-- central atrium -->
+<path d="M470 482 650 437 650 668 470 710Z" fill="#2b5269"/>
+<path d="M490 485 632 450 632 651 490 685Z" fill="url(#glass)"/>
+<g stroke="#d8f5f3" stroke-width="5" opacity=".8"><path d="M525 476V676M570 465V666M610 454V655M490 545 632 510M490 610 632 575"/></g>
+<!-- entrance -->
+<path d="M500 687 620 657 620 747 500 776Z" fill="#19394e"/>
+<path d="M515 694 605 671 605 746 515 768Z" fill="#a4d4df"/>
+<path d="M560 683V757" stroke="#e8f4f2" stroke-width="4"/>
+<!-- right wing -->
+<path d="M1090 515 1290 535 1290 700 1090 720Z" fill="#d9e3e1"/>
+<path d="M1110 535 1265 550 1265 668 1110 688Z" fill="url(#windows)"/>
+<path d="M1090 490 1310 514 1290 541 1090 518Z" fill="#f6f1e6"/>
+<!-- paved approach -->
+<path d="M0 900 500 770 1090 730 1600 790V1000H0Z" fill="url(#road)"/>
+<path d="M310 1000 630 785 790 765 540 1000Z" fill="#d3cfc2" opacity=".4"/>
+<path d="M620 1000 825 782 865 779 715 1000Z" fill="#e3e2d7" opacity=".7"/>
+<!-- evergreen landscaping -->
+<g fill="#163e43"><path d="M80 875 130 730 180 875Z"/><path d="M135 900 195 720 255 900Z"/><path d="M1180 825 1235 670 1290 825Z"/><path d="M1260 850 1325 650 1390 850Z"/><path d="M1375 855 1425 705 1475 855Z"/><path d="M1450 875 1515 680 1580 875Z"/></g>
+<g fill="#2f6257"><path d="M65 855 130 785 195 855Z"/><path d="M125 870 195 780 265 870Z"/><path d="M1160 805 1235 735 1310 805Z"/><path d="M1240 825 1325 715 1410 825Z"/><path d="M1355 825 1425 765 1495 825Z"/><path d="M1430 850 1515 735 1600 850Z"/></g>
+<!-- working vessel -->
+<g transform="translate(1135 540)">
+ <path d="M0 45 360 45 320 96 65 104 24 80Z" fill="#e8ece5" stroke="#0b334c" stroke-width="5"/>
+ <path d="M0 45H360L342 66H18Z" fill="#0c3855"/>
+ <path d="M115 45V-12H220V45Z" fill="#f0f1e7" stroke="#254c60" stroke-width="4"/>
+ <path d="M138 -12V-45H194V-12Z" fill="#c9e8eb" stroke="#254c60" stroke-width="3"/>
+ <path d="M168 -45V-85M168 -70 218 -56" stroke="#284d60" stroke-width="4" fill="none"/>
+ <path d="M150 -42 168 -42 168 -15 150 -15Z" fill="#e8f2ee"/>
+ <g fill="#3c7487"><rect x="128" y="2" width="20" height="15" rx="2"/><rect x="157" y="2" width="20" height="15" rx="2"/><rect x="186" y="2" width="20" height="15" rx="2"/><rect x="215" y="2" width="20" height="15" rx="2"/></g>
+ <path d="M25 82q80 16 170 8t145-8" stroke="#87d4e0" stroke-width="4" fill="none"/>
+</g>
+<!-- Canadian flag -->
+<g transform="translate(1055 400)"><path d="M0 0V125" stroke="#f4f0e4" stroke-width="5"/><path d="M4 4H90V60H4Z" fill="#fff"/><path d="M4 4H27V60H4ZM67 4H90V60H67Z" fill="#d74442"/><path d="m48 15 6 12 10-2-6 10 7 8-13-2-4 12-4-12-13 2 7-8-6-10 10 2Z" fill="#d74442"/></g>
+<!-- warm highlights -->
+<path d="M0 965q260-70 520-35t500-5 580 20v55H0Z" fill="#f4bd7c" opacity=".18"/>
+</svg>
