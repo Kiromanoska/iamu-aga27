@@ -34,6 +34,7 @@
 </main>
 <footer class="footer"><div class="footerinner"><div><strong>IAMU AGA28 · CONCEPT</strong><p>St. John’s, Newfoundland and Labrador · Canada · 2028</p></div><div><strong>Official references</strong><p><a href="https://iamu-edu.org/aga/" target="_blank" rel="noopener">IAMU ↗</a> &nbsp;·&nbsp; <a href="https://www.mi.mun.ca/" target="_blank" rel="noopener">Marine Institute ↗</a></p></div></div><div class="fine">Independent concept website created for planning and design exploration. Not the official AGA28 website and not endorsed by IAMU or the host institution. Conference dates, venue, theme, programme, fees, registration and travel arrangements remain subject to official confirmation.</div></footer>
 <button class="top" id="topbtn" aria-label="Back to top">↑</button>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 const nav=document.getElementById('nav'),menu=document.getElementById('menu'),links=document.getElementById('links'),progress=document.getElementById('scrollProgress');
 const updateScroll=()=>{nav.classList.toggle('scrolled',scrollY>24);const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?Math.min(100,scrollY/max*100):0)+'%'};addEventListener('scroll',updateScroll,{passive:true});updateScroll();
